@@ -57,6 +57,10 @@ This theme supports a number of custom variables:
 - `GLOBAL_KEYWORDS`: A list of strings that will be set as meta keywords for each page.
 - `FUZZY_DATES`: If `True`, uses [lw-timeago](https://github.com/pR0Ps/lw-timeago) to display fuzzy dates on articles (eg. 'Posted 3 months ago').
 
+## Note
+
+* ​`TAGS_URL` and`ARCHIVES_URL` in `pelicanconf.py` need to be set to make TAGLINE work.
+
 ## Authors
 
 pelican-subtle is authored by [pR0Ps](https://github.com/pR0Ps).
